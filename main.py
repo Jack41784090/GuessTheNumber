@@ -15,4 +15,5 @@ def guess_number(max_number):
         print(f'You guessed {guessed} and it is { "correct" if correct else "incorrect" }')
 
 
-guess_number(10)
+max_num = int(input(f'What is the upper limit of the guess?:'))
+guess_number(max_num)
